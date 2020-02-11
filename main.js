@@ -19,13 +19,13 @@ for (let i = 0; i < card_details.length; i++) {
         <p class="card-text">
         ${card_details[i].card_text}
         </p>
-        <a href=${card_details[i].demo_url} class="btn btn-primary">Live Demo 😃</a>
+        <a href=${card_details[i].demo_url} target="_blank" class="btn btn-primary">Live Demo 😃</a>
       </div>
       </div>
       `
   );
 
-  if (_.indexOf(card_division, i) >=0) {
+  if (_.indexOf(card_division, i) >= 0) {
     card_group.insertAdjacentHTML(
       "beforeend",
       `
