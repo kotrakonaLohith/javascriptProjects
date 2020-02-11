@@ -2,10 +2,6 @@ body {
     background: #040e27;
 }
 
-a {
-    color: white;
-}
-
 body header div.container nav.navbar {
     background-color: #040e27;
 }
@@ -58,12 +54,8 @@ body footer div.container div.row div.col ul.nav a:hover {
     color: #0175e0;
 }
 
-.card-group .card-body {
-    width: 100%;
-}
-
-img {
-    width: 100%;
+.my_img {
+    border-radius: 50%;
 }
 
 .myPhoto {
@@ -109,4 +101,8 @@ img {
     color: white;
     transform: rotateY(180deg);
     padding: 20px;
+}
+
+.content_img {
+    width: 100%;
 }
