@@ -27,20 +27,31 @@ aside {
 }
 
 button {
-    background-color: #fff;
-    border: 1px solid #111;
-    cursor: pointer;
-    border-radius: 5px;
-    display: block;
-    width: 100%;
     padding: 10px;
-    margin-bottom: 20px;
-    font-weight: bold;
+    display: block;
     font-size: 14px;
+    width: 100%;
+    font-weight: bold;
+    margin-bottom: 20px;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
 }
 
 button:hover {
-    background-color: #2980b9;
+    background-color: #3e8e41;
+    opacity: 1;
+    right: 0;
+}
+
+button:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
 }
 
 main {
