@@ -109,7 +109,7 @@ body footer div.container div.row div.col ul.nav a:hover {
 
 .card-group {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: 1fr;
     grid-gap: 2px;
     background-color: #040e27;
 }
@@ -136,8 +136,4 @@ body footer div.container div.row div.col ul.nav a:hover {
     .card-group {
         grid-template-columns: repeat(4, 1fr);
     }
-}
-
-.card-group .card:not(:first-child) {
-    width: 100%;
 }
