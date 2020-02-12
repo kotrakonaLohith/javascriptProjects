@@ -6,8 +6,6 @@ console.log(card_details[0].card_title);
 // <div id="one">one</div>
 var card_group = document.getElementById("main_cardgroup");
 
-var card_division = [3, 7, 11, 15, 19, 23, 27];
-
 for (let i = 0; i < card_details.length; i++) {
   card_group.insertAdjacentHTML(
     "beforeend",

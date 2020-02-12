@@ -28,10 +28,10 @@ card_details[3] = {
   demo_url: "./Exchange/index.html"
 };
 card_details[4] = {
-  card_title: "Currency Exchange Calculator",
-  card_image: "./assets/Capture4.PNG",
+  card_title: "DOM Array Methods",
+  card_image: "./assets/Capture5.PNG",
   card_text: "Please click below to view the project",
-  demo_url: "./Exchange/index.html"
+  demo_url: "./domMethods/index.html"
 };
 card_details[5] = {
   card_title: "Currency Exchange Calculator",
