@@ -106,3 +106,38 @@ body footer div.container div.row div.col ul.nav a:hover {
 .content_img {
     width: 100%;
 }
+
+.card-group {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 2px;
+    background-color: #040e27;
+}
+
+@media (min-width: 500px) {
+    .card-group {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (min-width: 700px) {
+    .card-group {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (min-width: 960px) {
+    .card-group {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (min-width: 1200px) {
+    .card-group {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+.card-group .card:not(:first-child) {
+    width: 100%;
+}

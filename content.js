@@ -1,56 +1,50 @@
 const card_details = [];
 
 card_details[0] = {
-  card_title: "Title 1",
+  card_title: "Form Validation",
   card_image: "./assets/Capture1.PNG",
-  card_text: "Text 1",
+  card_text: "Please click below to view the project",
   demo_url: "./form/index.html"
 };
 
 card_details[1] = {
-  card_title: "Title 2",
+  card_title: "Movie Booking",
   card_image: "./assets/Capture2.PNG",
-  card_text: "Text 2",
+  card_text: "Please click below to view the project",
   demo_url: "./booking/index.html"
 };
 
 card_details[2] = {
-  card_title: "Title 3",
+  card_title: "Custom Video Player",
   card_image: "./assets/Capture3.PNG",
-  card_text: "Text 3",
+  card_text: "Please click below to view the project",
   demo_url: "./videoPlayer/index.html"
 };
 
 card_details[3] = {
-  card_title: "Title 4",
-  card_image: "./assets/Capture1.PNG",
-  card_text: "Text 4",
-  demo_url: "./form/index.html"
+  card_title: "Currency Exchange Calculator",
+  card_image: "./assets/Capture4.PNG",
+  card_text: "Please click below to view the project",
+  demo_url: "./Exchange/index.html"
 };
 card_details[4] = {
-  card_title: "Title 5",
-  card_image: "./assets/Capture1.PNG",
-  card_text: "Text 5",
-  demo_url: "./form/index.html"
+  card_title: "Currency Exchange Calculator",
+  card_image: "./assets/Capture4.PNG",
+  card_text: "Please click below to view the project",
+  demo_url: "./Exchange/index.html"
 };
 card_details[5] = {
-    card_title: "Title 5",
-    card_image: "./assets/Capture1.PNG",
-    card_text: "Text 5",
-    demo_url: "./form/index.html"
-  };
-  card_details[6] = {
-    card_title: "Title 5",
-    card_image: "./assets/Capture1.PNG",
-    card_text: "Text 5",
-    demo_url: "./form/index.html"
-  };
-  card_details[7] = {
-    card_title: "Title 5",
-    card_image: "./assets/Capture1.PNG",
-    card_text: "Text 5",
-    demo_url: "./form/index.html"
-  };
+  card_title: "Currency Exchange Calculator",
+  card_image: "./assets/Capture4.PNG",
+  card_text: "Please click below to view the project",
+  demo_url: "./Exchange/index.html"
+};
+card_details[6] = {
+  card_title: "Currency Exchange Calculator",
+  card_image: "./assets/Capture4.PNG",
+  card_text: "Please click below to view the project",
+  demo_url: "./Exchange/index.html"
+};
 
 function getCardDetails() {
   return card_details;

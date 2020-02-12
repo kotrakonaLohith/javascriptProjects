@@ -24,13 +24,4 @@ for (let i = 0; i < card_details.length; i++) {
       </div>
       `
   );
-
-  if (_.indexOf(card_division, i) >= 0) {
-    card_group.insertAdjacentHTML(
-      "beforeend",
-      `
-        <div class="w-100"></div>
-          `
-    );
-  }
 }
