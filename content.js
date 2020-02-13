@@ -34,16 +34,10 @@ card_details[4] = {
   demo_url: "./domMethods/index.html"
 };
 card_details[5] = {
-  card_title: "Currency Exchange Calculator",
-  card_image: "./assets/Capture4.PNG",
+  card_title: "My Landing Page",
+  card_image: "./assets/Capture6.PNG",
   card_text: "Please click below to view the project",
-  demo_url: "./Exchange/index.html"
-};
-card_details[6] = {
-  card_title: "Currency Exchange Calculator",
-  card_image: "./assets/Capture4.PNG",
-  card_text: "Please click below to view the project",
-  demo_url: "./Exchange/index.html"
+  demo_url: "./landingPage/index.html"
 };
 
 function getCardDetails() {
