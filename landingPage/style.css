@@ -41,6 +41,7 @@ nav .logo img {
     height: 75px;
     width: 75px;
     border-radius: 50%;
+    cursor: pointer;
 }
 
 nav ul {
@@ -64,7 +65,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    text-decoration: underline
+    text-decoration: underline;
 }
 
 header {
